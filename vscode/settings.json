@@ -1,0 +1,45 @@
+{
+    "workbench.colorTheme": "Dark hacker theme",
+    "workbench.iconTheme": "material-icon-theme",
+
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+    },
+    "[vue]": {
+        "editor.tabSize": 2,
+    },
+    "[css]": {
+        "editor.tabSize": 2,
+    },
+    "prettier.singleQuote": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "go.useLanguageServer": true,
+    "workbench.editor.enablePreview": false,
+    "code-runner.runInTerminal": true,
+    "editor.tokenColorCustomizations": {
+        "[Dark hacker theme]": {
+            "comments": "#808080",
+            "keywords": "#55FF55",
+            "strings": "#BBBBBBBB",
+            "types": "#BBBBBBBB",
+            "variables": "#BBBBBBBB",
+            "functions": "#BBBBBBBB",
+            "numbers": "#2abe31",
+            "textMateRules": [
+                {
+                    "scope": "keyword.operator",
+                    "settings": {
+                        "foreground": "#ffff02"
+                    }
+                }
+            ],
+        },
+    },
+}
